@@ -38,7 +38,7 @@ void loop() {
     return;
 
   distance = USS_measure(PIN_TRIG, PIN_ECHO); // read distance
-  //int i = 1
+  int i = 1
   if (distance < _DIST_MIN) {
     distance = fc;
     distance = _DIST_MIN - 10.0;    // Set Lower Value
